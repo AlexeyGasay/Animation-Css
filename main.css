@@ -1,0 +1,128 @@
+*{
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding-top: 100px;
+}
+
+/* - - - - Beginning of styles <Link change color by hover> - - - - */
+
+.say-hello-link {
+    border: 2px solid #777879;
+    border-radius: 1px;
+    color: #606061;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+	margin: 50px 0 0 100px;
+    outline: none; 
+    padding: 18px 47px;
+    text-align: center;
+    transition: 2s;
+}
+
+.say-hello-link:hover, .say-hello-link:focus {
+    background-color: #b2f2ee;
+    transition: 2s;
+}
+
+/* - - - - End of styles <Link change color by hover> - - - - */
+
+
+
+
+
+
+
+/* - - - - Beginnig of styles <Animation with opacity> - - - - - */
+
+ 
+.small-team-box {
+    align-items: flex-end;
+    display: flex;
+    height: 440px;
+    justify-content: center;
+	margin: 100px 0 0 0;
+    width: 370px;
+}
+
+
+.small-team-box {
+    background-image: url(../img/team-4.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+.team-info {
+	background-color: #70f6eb;
+    transition: 2.2s;
+    font-family: 'Merriweather', sans-serif;
+    height: 241px;
+    margin-bottom: 10px;
+    opacity: 0;
+    visibility: hidden;
+    width: 335px;
+    
+}
+
+.team-info-h4 {
+    color: #2c3938;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px 0 0 40px;
+}
+
+.team-info-p {
+    color: #225450;
+    font-weight: 500;
+    padding: 28px 0 0 40px;
+    
+}
+
+
+.team-info-soc {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0 0 28px;
+}
+
+.team-info-soc li{
+    padding: 0 7px; 
+}
+
+
+.team-info-hidden:hover .team-info{
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+    
+}
+
+/* - - - - End of styles <Animation with opacity> - - - - - */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
